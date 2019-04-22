@@ -15,7 +15,9 @@ run commands:
 
 test the container:
 
-docker run --rm -p 8787:8787 -e USER=guest -e PASSWORD=guest -v /Users/testmachine/Shared:/home/guest/r-docker tmlts/r-tidyverse-h2o
+docker run --rm -p 8787:8787 -e USER=guest -e PASSWORD=guest -v /Users/vladdsm/Shared:/home/guest/r-docker tmlts/r-tidyverse-h2o
+
+
 
 R - studio can be accessible via http://localhost:8787 in the browser
 
